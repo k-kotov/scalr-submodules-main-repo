@@ -7,6 +7,7 @@ resource "null_resource" "networking_submodule" {
   }
 }
 
+
 # Use the submodule as a Terraform module
 module "network" {
   depends_on = [null_resource.networking_submodule] # Ensure the submodule is initialized first
