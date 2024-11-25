@@ -1,6 +1,7 @@
 provider "local" {}
 
 
+
 resource "null_resource" "networking_submodule" {
   # Trigger the null_resource if the submodule is missing or if .gitmodules changes
   triggers = {
