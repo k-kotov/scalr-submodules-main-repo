@@ -1,3 +1,4 @@
 [submodule "modules/example-module"]
 	path = modules/example-module
-	url = git@github.com:penja/scalr-submodules-submodule-repo.git
+	#url = git@github.com:penja/scalr-submodules-submodule-repo.git
+url = git::ssh://git@github.com:penja/scalr-submodules-submodule-repo.git
